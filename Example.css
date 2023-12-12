@@ -1,0 +1,45 @@
+ /*Schematic */
+
+
+
+ html{
+  box-sizing: border-box;
+ }
+
+ body{
+  margin: 0;
+  height: 100%;
+ }
+
+ .banking-grid{
+  display: grid;
+  grid-template-areas: 
+  'header'
+   'main'
+  'footer'; 
+  height: 100vh;
+  grid-template-columns 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+}
+header{
+ grid-area: 'header';
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: white;
+}
+
+main{
+  grid-area: 'main';
+
+}
+footer{
+  background-color: black;
+  grid-area: 'footer';
+}
+.row{
+  display: flex;
+align-items: start;
+  justify-content: center;
+  color: blue;
+ 
+  
+}
